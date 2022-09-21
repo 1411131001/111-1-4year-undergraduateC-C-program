@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main(void)
+{
+	int u;
+	int a;
+	int t;
+
+	printf("Enter the velocity");
+	scanf_s("%d",& u);
+
+	printf("Enter the acceler");
+	scanf_s("%d",& a);
+
+	printf("Enter the object");
+	scanf_s("%d",& t);
+
+	int v;
+	v = u + a * t;
+
+	int s;
+	s = u * t + 1 / 2 * a * t ^ 2;
+
+	printf("v is %d\n", v);
+	printf("s is %d\n", s);
+
+}
